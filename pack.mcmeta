@@ -1,10 +1,31 @@
 {
-    "pack": {
-        "description": "§4Hardcore hearts even for survival!",
-        "pack_format": 63,
-        "supported_formats": [
-            63,
-            81
-        ]
-    }
+  "pack": {
+    "description": {
+      "text": "Hardcore hearts for survival mode",
+      "type": "text",
+      "color": "light_purple",
+      "bold": true,
+      "italic": false,
+      "underlined": false,
+      "strikethrough": false,
+      "obfuscated": false,
+      "click_event": {
+        "action": "open_url",
+        "url": "https://modrinth.com/resourcepack/survival2hardcore"
+      },
+      "hover_event": {
+        "action": "show_text",
+        "value": {
+          "text": "Click to visit modrinth page",
+          "color": "dark_purple",
+          "underlined": true
+        }
+      }
+    },
+    "pack_format": 63,
+    "supported_formats": [
+      31,
+      81
+    ]
+  }
 }
