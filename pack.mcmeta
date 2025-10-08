@@ -1,0 +1,10 @@
+{
+    "pack": {
+        "description": "§4Hardcore hearts even for survival!",
+        "pack_format": 63,
+        "supported_formats": [
+            63,
+            81
+        ]
+    }
+}
